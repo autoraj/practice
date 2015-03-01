@@ -18,6 +18,7 @@ public class TestMyWebPage {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		System.out.println("This is Praise Branch");
 		System.setProperty("webdriver.ie.driver", "C:\\Anbu\\Training\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.get("http://www.jesuscalls.com/");
@@ -29,7 +30,9 @@ public class TestMyWebPage {
 		//driver.findElement(By.name("btnK")).click();
 		 String strPromise1 = driver.findElement(By.cssSelector("p")).getText();
 		 System.out.println(strPromise1);
+		 
 		driver.quit();
+		
 	}
 	
 	
