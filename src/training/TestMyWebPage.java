@@ -18,7 +18,10 @@ public class TestMyWebPage {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.out.println("This is Praise Branch");
+		//this is grace branch
+		
+		
+		System.out.println("Grace of God!");
 		System.setProperty("webdriver.ie.driver", "C:\\Anbu\\Training\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.get("http://www.jesuscalls.com/");
